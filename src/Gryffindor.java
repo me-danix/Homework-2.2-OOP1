@@ -31,10 +31,10 @@ public class Gryffindor extends HogwartsStudent {
     }
 
     public void compareStudentGryffindor(Gryffindor student) {
-        if (this.getNobility() + this.getHonor() + this.getBravery() > student.getNobility() + student.getHonor() + getBravery()) {
+        if (this.getNobility() + this.getHonor() + this.getBravery() > student.getNobility() + student.getHonor() + student.getBravery()) {
             System.out.println(
                     "Студент факультета Гриффиндор " + this.getName() + " обладет бОльшими показателями, чем студент " + student.getName());
-        } else if (this.getNobility() + this.getHonor() + this.getBravery() == student.getNobility() + student.getHonor() + getBravery()) {
+        } else if (this.getNobility() + this.getHonor() + this.getBravery() == student.getNobility() + student.getHonor() + student.getBravery()) {
             System.out.println(
                     "Студент факультета Гриффиндор " + this.getName() + " обладет такими же показателями, как и студент " + student.getName());
         } else {

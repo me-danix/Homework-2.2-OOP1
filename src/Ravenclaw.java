@@ -38,10 +38,10 @@ public class Ravenclaw extends HogwartsStudent {
     }
 
     public void compareStudentRavenclaw(Ravenclaw student) {
-        if (this.getMind() + this.getWisdom() + this.getWit() + this.getCreativity() > student.getMind() + student.getWisdom() + getWit() + getCreativity()) {
+        if (this.getMind() + this.getWisdom() + this.getWit() + this.getCreativity() > student.getMind() + student.getWisdom() + student.getWit() + student.getCreativity()) {
             System.out.println(
                     "Студент факультета Когтевран " + this.getName() + " обладет бОльшими показателями, чем студент " + student.getName());
-        } else if (this.getMind() + this.getWisdom() + this.getWit() + this.getCreativity() == student.getMind() + student.getWisdom() + getWit() + getCreativity()) {
+        } else if (this.getMind() + this.getWisdom() + this.getWit() + this.getCreativity() == student.getMind() + student.getWisdom() + student.getWit() + student.getCreativity()) {
             System.out.println(
                     "Студент факультета Когтевран " + this.getName() + " обладет такими же показателями, как и студент " + student.getName());
         } else {

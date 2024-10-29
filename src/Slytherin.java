@@ -45,10 +45,10 @@ public class Slytherin extends HogwartsStudent {
     }
 
     public void compareStudentSlytherin(Slytherin student) {
-        if (this.getCunning() + this.getDetermination() + this.getAmbition() + this.getResourcefulness() + this.getAuthority() > student.getCunning() + student.getDetermination() + getAmbition() + getResourcefulness() + getAuthority()) {
+        if (this.getCunning() + this.getDetermination() + this.getAmbition() + this.getResourcefulness() + this.getAuthority() > student.getCunning() + student.getDetermination() + student.getAmbition() + student.getResourcefulness() + student.getAuthority()) {
             System.out.println(
                     "Студент факультета Слизерин " + this.getName() + " обладет бОльшими показателями, чем студент " + student.getName());
-        } else if (this.getCunning() + this.getDetermination() + this.getAmbition() + this.getResourcefulness() + this.getAuthority() == student.getCunning() + student.getDetermination() + getAmbition() + getResourcefulness() + getAuthority()) {
+        } else if (this.getCunning() + this.getDetermination() + this.getAmbition() + this.getResourcefulness() + this.getAuthority() == student.getCunning() + student.getDetermination() + student.getAmbition() + student.getResourcefulness() + student.getAuthority()) {
             System.out.println(
                     "Студент факультета Слизерин " + this.getName() + " обладет такими же показателями, как и студент " + student.getName());
         } else {
