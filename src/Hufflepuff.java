@@ -31,10 +31,10 @@ public class Hufflepuff extends HogwartsStudent {
     }
 
     public void compareStudentHufflepuff(Hufflepuff student) {
-        if (this.getIndustriousness() + this.getLoyalty() + this.getHonesty() > student.getIndustriousness() + student.getLoyalty() + getHonesty()) {
+        if (this.getIndustriousness() + this.getLoyalty() + this.getHonesty() > student.getIndustriousness() + student.getLoyalty() + student.getHonesty()) {
             System.out.println(
                     "Студент факультета Пуффендуй " + this.getName() + " обладет бОльшими показателями, чем студент " + student.getName());
-        } else if (this.getIndustriousness() + this.getLoyalty() + this.getHonesty() == student.getIndustriousness() + student.getLoyalty() + getHonesty()) {
+        } else if (this.getIndustriousness() + this.getLoyalty() + this.getHonesty() == student.getIndustriousness() + student.getLoyalty() + student.getHonesty()) {
             System.out.println(
                     "Студент факультета Пуффендуй " + this.getName() + " обладет такими же показателями, как и студент " + student.getName());
         } else {

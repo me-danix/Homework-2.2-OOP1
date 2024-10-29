@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
 
-        Gryffindor harryPotter = new Gryffindor("Гарри Поттер", 67, 74, 52, 20, 87);
+        Gryffindor harryPotter = new Gryffindor("Гарри Поттер", 67, 74, 52, 20, 27);
         Gryffindor hermioneGranger = new Gryffindor("Гермиона Грейнджер", 71, 99, 90, 99, 54);
         Gryffindor ronWeasley = new Gryffindor("Рон Уизли", 63, 36, 31, 59, 29);
 
@@ -22,9 +22,9 @@ public class Main {
         System.out.println("marcusBelby = " + marcusBelby);
         System.out.println("gregoryGoyle = " + gregoryGoyle);
 
+        System.out.println();
+
         harryPotter.compareStudent(dracoMalfoy);
         zachariahSmith.compareStudentHufflepuff(cedricDiggory);
     }
-
-
 }
